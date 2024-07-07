@@ -32,11 +32,8 @@
     .secendary-bg{
       background-color: #FFF8F3;
     }
-    .third-bg{
-      background-color: #FFF8F3;
-    }
 
-    .center-tex{
+    .center-text{
       text-align: center;
     }
     
@@ -113,18 +110,22 @@
 /* style about section */
 
 .about{
-  max-width: 1140px;
+  /* max-width: 1140px; */
 
-  margin: 130px auto;
+  /* margin: 130px auto; */
+  padding: 100px;
+
+  background-color:white;
 }
 
 .about-me{
   display: flex;
   gap: 50px;
   justify-content: space-around;
+  
 }
 
-.about-div1{
+.about-div{
   align-items: center;
   padding: 131px 156px;
   background-color: #FFF8F3;
@@ -132,4 +133,225 @@
 
 .margin-b{
   margin-bottom: 30px;
+}
+
+/* style skill section */
+
+ .skill-p-description{
+  max-width: 909px;
+ margin: 0 auto;
+ }
+
+ .skil{
+  display: flex;
+  gap: 24px;
+  margin: 50px 230px 160px 230px;
+ }
+
+ .my-skill{
+  max-width: 267px;
+  padding: 30px 17px;
+  max-height: 377px;
+ }
+
+ .my-skill h3{
+  font-weight: bold;
+  font-size: 20px;
+ }
+
+
+
+
+
+
+.my-skill {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.skill-title {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+}
+
+.skill-description {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+.resume-c{
+  display: flex;
+  justify-content: center;
+}
+
+.resume-summary {
+  text-align: center;
+  width: 80%;
+  max-width: 900px;
+}
+
+.resume-summary h1 {
+  margin-bottom: 30px;
+}
+
+.download-button{
+  margin-bottom: 131px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+/* style footer */
+
+
+.contact-section {
+  background-color: #fff4e6;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1200px;
+}
+
+.contact-info, .contact-form {
+  width: 45%;
+}
+
+.contact-info h2, .contact-form h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.social-media a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.contact-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-form button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #e65c00;
+}
+
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.section {
+  width: 45%;
+}
+
+.section h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+}
+
+.card p {
+  margin: 0 0 10px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.download-button {
+  margin-top: 30px;
+}
+
+.download-button button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button button:hover {
+  background-color: #e65c00;
+}
+
+
+.my-skill p{
+  color: #757575;
 }
